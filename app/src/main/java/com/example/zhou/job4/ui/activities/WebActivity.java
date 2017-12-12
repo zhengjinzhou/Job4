@@ -21,10 +21,10 @@ public class WebActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
         webView = findViewById(R.id.webView);
-        webView.loadUrl("https://www.baidu.com/");
+        String url_main = getIntent().getStringExtra("url_main");
         //声明WebSettings子类
         WebSettings webSettings = webView.getSettings();
-
+        webView.loadUrl(url_main);
         //如果访问的页面中要与Javascript交互，则webview必须设置支持Javascript
         webSettings.setJavaScriptEnabled(true);
         //设置自适应屏幕，两者合用
