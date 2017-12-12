@@ -16,10 +16,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-/**
- * Created by junbo on 3/11/2016.
- */
-
 public abstract class BaseActivity<T extends ILottery, K extends BasePresenter> extends AppCompatActivity implements BaseView<T> {
     @BindView(R.id.toolbar)
     Toolbar toolbar;

@@ -23,9 +23,6 @@ import java.util.List;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 14/11/2016.
- */
 
 public class NewsFragment extends BaseFailFragment<NewsPresenter> implements NewsView<News>, OnItemClickListener {
     @BindView(R.id.recyclerView)

@@ -10,13 +10,9 @@ import com.example.zhou.job4.ui.fragment.NavFragment;
 
 import butterknife.BindView;
 
+
 public class MainActivity extends BaseActivity implements OnTagChangedListener {
-    //    @BindView(R.id.viewPager)
-//    ViewPager viewPager;
-//    @BindView(R.id.tabLayout)
-//    TabLayout tabLayout;
-//    MainAdapter adapter;
-//    List<BaseFragment> fragmentList;
+
     @BindView(R.id.content)
     FrameLayout frameLayout;
 
@@ -42,7 +38,6 @@ public class MainActivity extends BaseActivity implements OnTagChangedListener {
         fragment = (NavFragment) getSupportFragmentManager().findFragmentById(R.id.fragment);
         fragment.setOnTagChangedListener(this);
         fragment.setUp(this, getSupportFragmentManager(), R.id.content);
-
     }
 
     @Override
@@ -57,12 +52,10 @@ public class MainActivity extends BaseActivity implements OnTagChangedListener {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -70,6 +63,4 @@ public class MainActivity extends BaseActivity implements OnTagChangedListener {
     public void setTitle(String title) {
         toolbar.setTitle(title);
     }
-
-
 }

@@ -16,11 +16,6 @@ import android.widget.TextView;
 
 import com.example.zhou.job4.R;
 
-
-/**
- * Created by junbo on 8/11/2016.
- */
-
 public class NavButton extends FrameLayout {
     //@BindView(R.id.imageView)
     ImageView imageView;
@@ -39,6 +34,11 @@ public class NavButton extends FrameLayout {
 
     public NavButton(Context context) {
         super(context);
+        init();
+    }
+
+    public NavButton(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
         init();
     }
 
@@ -83,10 +83,6 @@ public class NavButton extends FrameLayout {
         init();
     }
 
-    public NavButton(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        init();
-    }
 
     void init() {
         LayoutInflater inflater = LayoutInflater.from(getContext());

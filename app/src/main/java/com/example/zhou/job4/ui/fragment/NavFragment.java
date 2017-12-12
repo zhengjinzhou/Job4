@@ -1,5 +1,6 @@
 package com.example.zhou.job4.ui.fragment;
 
+
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -16,10 +17,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-
-/**
- * Created by junbo on 8/11/2016.
- */
 
 public class NavFragment extends BaseFragment {
     @BindView(R.id.lottery)

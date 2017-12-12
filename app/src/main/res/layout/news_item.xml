@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="4dp"
     android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
     android:background="@color/white"
     android:orientation="horizontal">
 
@@ -27,17 +27,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="top|left"
-            android:textSize="18sp"
             android:gravity="center_vertical"
-            android:text="" />
+            android:text=""
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/publishTime"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="10sp"
             android:layout_gravity="bottom|right"
             android:gravity="center_vertical"
-            android:text="" />
+            android:text=""
+            android:textSize="10sp" />
     </LinearLayout>
 </LinearLayout>
