@@ -101,11 +101,7 @@ public class MeFragment extends BaseFragment<MePresenter> implements MeView {
 
     @Override
     public void newVersion(String url) {
-        if (url == null || "".equals(url)) {
-            showToast("没有检测到最新版本！");
-        } else {
-            showDialog(url);
-        }
+        showToast("没有检测到最新版本！");
     }
 
     @Override

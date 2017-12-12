@@ -15,8 +15,6 @@ import butterknife.BindView;
  */
 
 public class AboutActivity extends BaseActivity implements AboutView {
-    @BindView(R.id.webView)
-    WebView webView;
 
     @Override
     protected void initIntent() {
@@ -30,18 +28,15 @@ public class AboutActivity extends BaseActivity implements AboutView {
 
     @Override
     protected void iniView() {
-        //webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("file:///android_asset/about.html");
-        toolbar.setTitle(getString(R.string.about_titile));
+        toolbar.setTitle("关于");
         toolbar.setNavigationIcon(R.mipmap.back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AboutActivity.this.finish();
+                finish();
+                overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
             }
         });
-       // setSupportActionBar(toolbar);
-
     }
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
@@ -58,7 +53,6 @@ public class AboutActivity extends BaseActivity implements AboutView {
 
     @Override
     public void update(String data) {
-        webView.loadUrl(data);
     }
 
     @Override

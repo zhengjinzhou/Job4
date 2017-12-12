@@ -12,9 +12,9 @@
 
         <include layout="@layout/appbar" />
 
-        <WebView
-            android:id="@+id/webView"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"
+            android:text="      本应用使用360数据接口，如有侵权请联系作者，邮箱1457594845@qq.com" />
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

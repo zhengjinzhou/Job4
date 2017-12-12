@@ -24,7 +24,7 @@ public class KJLineItemView extends ViewGroup {
     private List<Ball> list;
     private float padding = 6;
     private int screenWidth, screenHeight;
-    private static final int maxSize = 9;
+    private static final int maxSize = 12;
     int rowHeight = 0;
     //int childNum = 0;
 
