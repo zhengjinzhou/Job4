@@ -2,7 +2,7 @@
     <string name="app_name">时时彩技巧</string>
     <string name="action_settings">Settings</string>
     <string name="last_lottery">最新开奖</string>
-
+    <string name="last_home">首页</string>
     <string name="SSQ">双色球</string>
     <string name="DLT">大乐透</string>
     <string name="FC3D">福彩3D</string>
@@ -85,6 +85,7 @@
     <string name="title_activity_lottery_detail">LotteryDetailActivity</string>
     <string name="lottery_history">开奖历史</string>
     <string name="news_bottom">新闻</string>
+    <string name="lottery_home">首页</string>
     <string name="lottery_bottom">开奖</string>
     <string name="history_bottom">历史</string>
     <string name="me_bottom">设置</string>

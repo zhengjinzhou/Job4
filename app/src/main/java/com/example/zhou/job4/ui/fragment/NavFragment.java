@@ -21,7 +21,8 @@ import butterknife.OnClick;
 public class NavFragment extends BaseFragment {
     @BindView(R.id.lottery)
     NavButton lottery;
-
+    @BindView(R.id.home)
+    NavButton home;
     @BindView(R.id.history)
     NavButton history;
     @BindView(R.id.rule)
@@ -41,6 +42,7 @@ public class NavFragment extends BaseFragment {
 
     @Override
     protected void initView() {
+        home.initView(R.drawable.index_off, R.string.lottery_home, HomeFragment.class.getName());
         lottery.initView(R.drawable.lottery_bottom, R.string.lottery_bottom, MainFragment.class.getName());
         history.initView(R.drawable.history_bottom, R.string.history_bottom, HistoryFragment.class.getName());
         rule.initView(R.drawable.news_bottom, R.string.news_bottom, NewsFragment.class.getName());
@@ -56,7 +58,7 @@ public class NavFragment extends BaseFragment {
             return;
         boolean doCommit = false;
         for (Fragment fragment : fragments) {
-            if (fragment!=null &&fragment != this) {
+            if (fragment != null && fragment != this) {
                 transaction.remove(fragment);
                 doCommit = true;
             }
@@ -80,7 +82,7 @@ public class NavFragment extends BaseFragment {
         doSelect(lottery);
     }
 
-    @OnClick({R.id.lottery, R.id.history, R.id.rule, R.id.me})
+    @OnClick({R.id.home, R.id.lottery, R.id.history, R.id.rule, R.id.me})
     void OnNavButtonClick(View view) {
         if (view instanceof NavButton) {
             doSelect((NavButton) view);
@@ -102,7 +104,7 @@ public class NavFragment extends BaseFragment {
             } else {
                 transaction.attach(fragment);
             }
-            callBack(((BaseFragment)fragment).getTitle());
+            callBack(((BaseFragment) fragment).getTitle());
             view.setSelected(true);
         }
         transaction.commit();

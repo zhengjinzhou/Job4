@@ -5,6 +5,13 @@
     android:orientation="horizontal">
 
     <com.example.zhou.job4.widget.NavButton
+        android:id="@+id/home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <com.example.zhou.job4.widget.NavButton
         android:id="@+id/lottery"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
