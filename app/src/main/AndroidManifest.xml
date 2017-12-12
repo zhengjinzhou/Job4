@@ -44,8 +44,8 @@
             android:name=".ui.activities.RuleActivity"
             android:label="@string/title_activity_lottery_detail"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ui.activities.SplashActivity"/>
+        <activity android:name=".ui.activities.SplashActivity" />
+        <activity android:name=".ui.activities.WebActivity"></activity>
     </application>
 
 </manifest>
