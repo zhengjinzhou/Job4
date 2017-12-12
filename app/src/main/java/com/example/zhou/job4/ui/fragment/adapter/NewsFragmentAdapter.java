@@ -1,6 +1,7 @@
 package com.example.zhou.job4.ui.fragment.adapter;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -54,8 +55,9 @@ public class NewsFragmentAdapter extends BaseRecyclerAdapter<News, NewsFragmentA
         News news = list.get(position);
         vh.time.setText(news.getPtime());
         vh.title.setText(news.getTitle());
-        Picasso.with(context).load(news.getImgsrc()).resize(200, 200).into(vh.image);
-
+        if (!TextUtils.isEmpty(news.getImgsrc())){
+            Picasso.with(context).load(news.getImgsrc()).resize(200, 200).into(vh.image);
+        }
 
     }
 

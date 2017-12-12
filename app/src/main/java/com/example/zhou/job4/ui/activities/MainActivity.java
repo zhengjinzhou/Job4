@@ -80,5 +80,4 @@ public class MainActivity extends BaseActivity implements OnTagChangedListener {
         }
         return false;
     }
-
 }
