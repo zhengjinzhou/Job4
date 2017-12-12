@@ -15,10 +15,6 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by junbo on 7/11/2016.
- */
-
 public class HistoryPresenterImpl extends BasePresenterImpl<HistoryView> implements HistoryPresenter<HistoryView> {
 
     @Override

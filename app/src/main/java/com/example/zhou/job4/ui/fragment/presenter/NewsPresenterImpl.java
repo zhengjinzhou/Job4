@@ -13,10 +13,6 @@ import java.util.Map;
 
 import rx.Subscriber;
 
-/**
- * Created by junbo on 14/11/2016.
- */
-
 public class NewsPresenterImpl extends BaseFailPresenterImpl<NewsView> implements NewsPresenter<NewsView> {
     int page = 0;
     int pageSize = 20;

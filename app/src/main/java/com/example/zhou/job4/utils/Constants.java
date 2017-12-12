@@ -1,8 +1,5 @@
 package com.example.zhou.job4.utils;
 
-/**
- * Created by junbo on 2/11/2016.
- */
 
 public class Constants {
     public static final String RETROFIT_BASE_URL ="http://m.cp.360.cn/kaijiang/";

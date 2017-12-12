@@ -17,10 +17,6 @@ import com.example.zhou.job4.R;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 13/11/2016.
- */
-
 public class NewsDetailActivity extends BaseActivity {
     @BindView(R.id.webView)
     WebView webView;

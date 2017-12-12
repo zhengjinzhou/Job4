@@ -10,9 +10,6 @@ import java.util.List;
 
 import rx.Subscriber;
 
-/**
- * Created by junbo on 1/11/2016.
- */
 
 public class MainPresenterImpl extends BaseFailPresenterImpl<MainView> implements MainPresenter<MainView> {
 

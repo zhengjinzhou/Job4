@@ -2,9 +2,6 @@ package com.example.zhou.job4.model;
 
 import java.util.List;
 
-/**
- * Created by feimeng0530 on 2016/3/18.
- */
 public class LotteryHistory implements ILottery{
 
     /**

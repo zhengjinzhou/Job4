@@ -12,11 +12,6 @@ import retrofit2.http.Headers;
 import retrofit2.http.Path;
 import rx.Observable;
 
-
-/**
- * Created by junbo on 30/9/2016.
- */
-
 public interface NewsService {
     @GET("nc/article/{type}/{id}/{startPage}-20.html")
     @Headers({

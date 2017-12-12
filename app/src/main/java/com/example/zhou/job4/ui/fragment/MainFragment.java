@@ -25,10 +25,6 @@ import java.util.List;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 1/11/2016.
- */
-
 public class MainFragment extends BaseFailFragment<MainPresenter> implements MainView, OnItemClickListener {
 
     @BindView(R.id.recyclerView)

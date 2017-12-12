@@ -12,10 +12,6 @@ import java.util.List;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 17/11/2016.
- */
-
 public abstract class BaseFailFragment<K extends BaseFailPresenter> extends BaseFragment {
     @BindView(R.id.swipeRefreshLayout)
     public SwipeRefreshLayout swipeRefreshLayout;

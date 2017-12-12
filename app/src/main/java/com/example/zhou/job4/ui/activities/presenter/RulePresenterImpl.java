@@ -21,11 +21,6 @@ import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-
-/**
- * Created by junbo on 15/11/2016.
- */
-
 public class RulePresenterImpl extends BasePresenterImpl implements RulePresenter {
     Context context;
     List<Rule> ruleList = new ArrayList<>();

@@ -13,11 +13,6 @@ import java.util.List;
 import rx.Subscriber;
 import rx.functions.Func1;
 
-
-/**
- * Created by junbo on 3/11/2016.
- */
-
 public class LotteryDetailPresenterImpl<T extends ILotteryDetailView> extends BasePresenterImpl<ILotteryDetailView> implements LotteryDetailPresenter<ILotteryDetailView> {
     String lotId;
     String issue;

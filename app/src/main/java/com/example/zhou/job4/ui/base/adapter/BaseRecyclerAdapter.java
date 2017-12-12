@@ -13,11 +13,6 @@ import com.example.zhou.job4.ui.fragment.listener.OnItemClickListener;
 import java.util.Collections;
 import java.util.List;
 
-
-/**
- * Created by junbo on 2/11/2016.
- */
-
 public abstract class BaseRecyclerAdapter<M, VH extends BaseRecyclerAdapter.BaseViewHoler> extends RecyclerView.Adapter<VH> {
     public List<M> list;
     public Context context;

@@ -23,10 +23,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
-/**
- * Created by junbo on 11/11/2016.
- */
-
 public class MeFragment extends BaseFragment<MePresenter> implements MeView {
     private AlertDialog ad;
     @BindView(R.id.switch_wifi)

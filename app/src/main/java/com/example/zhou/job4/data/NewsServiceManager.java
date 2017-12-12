@@ -26,10 +26,6 @@ import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by junbo on 30/9/2016.
- */
-
 public class NewsServiceManager {
     private static volatile NewsServiceManager instance;
     OkHttpClient client;

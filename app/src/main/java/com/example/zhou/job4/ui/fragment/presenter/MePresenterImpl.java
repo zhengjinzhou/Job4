@@ -13,10 +13,6 @@ import com.example.zhou.job4.utils.Constants;
 import rx.Subscriber;
 import rx.functions.Func1;
 
-/**
- * Created by junbo on 11/11/2016.
- */
-
 public class MePresenterImpl extends BasePresenterImpl<MeView> implements MePresenter<MeView> {
     @Override
     public void checkVersion() {

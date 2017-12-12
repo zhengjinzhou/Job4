@@ -9,11 +9,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 
-
-/**
- * Created by junbo on 14/11/2016.
- */
-
 public class DivItemDecoration extends RecyclerView.ItemDecoration {
     public static int HORIZONTAL = LinearLayout.HORIZONTAL;
     public static int VERTICAL = LinearLayout.VERTICAL;

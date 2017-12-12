@@ -9,11 +9,6 @@ import com.example.zhou.job4.ui.fragment.base.BaseFragment;
 
 import java.util.List;
 
-
-/**
- * Created by junbo on 1/11/2016.
- */
-
 public class BasePagerAdapter extends FragmentStatePagerAdapter {
     List<BaseFragment> fragmentList;
     Context context;

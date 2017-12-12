@@ -1,10 +1,6 @@
 package com.example.zhou.job4.model;
 
 import java.util.List;
-
-/**
- * Created by junbo on 29/9/2016.
- */
 public class News implements ILottery{
 
 

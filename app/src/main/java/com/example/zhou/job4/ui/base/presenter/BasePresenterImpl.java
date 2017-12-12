@@ -3,10 +3,6 @@ package com.example.zhou.job4.ui.base.presenter;
 
 import com.example.zhou.job4.ui.base.view.BaseView;
 
-/**
- * Created by junbo on 16/11/2016.
- */
-
 public class BasePresenterImpl<T extends BaseView> implements BasePresenter<T> {
     public T view;
 

@@ -19,10 +19,6 @@ import java.util.List;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 4/11/2016.
- */
-
 public class HistoryFragment extends BaseFragment<HistoryPresenter> implements HistoryView {
     @BindView(R.id.viewPager)
     ViewPager viewPager;

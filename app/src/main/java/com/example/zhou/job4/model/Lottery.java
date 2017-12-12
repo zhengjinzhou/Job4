@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by feimeng0530 on 2016/3/17.
- */
 public class Lottery implements ILottery{
 
     public List getAllEntities(){

@@ -25,9 +25,6 @@ import java.util.List;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 7/11/2016.
- */
 
 public class ConcreteLotteryHistoryFragment extends BaseFailFragment<ConcreteLotteryHistoryPresenter> implements ConcreteLotteryView<LotteryHistory.ListEntity>, OnItemClickListener {
     @BindView(R.id.recyclerView)

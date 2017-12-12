@@ -18,10 +18,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by junbo on 2/11/2016.
- */
-
 public class NewsFragmentAdapter extends BaseRecyclerAdapter<News, NewsFragmentAdapter.NewsFragmentViewHolder> {
 
 

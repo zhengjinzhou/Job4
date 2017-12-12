@@ -20,10 +20,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
-/**
- * Created by feimeng0530 on 2016/3/18.
- */
 public class LotteryUtils {
     static ProgressDialog pd;
     static Map<String, String> cacheNameId = new HashMap();

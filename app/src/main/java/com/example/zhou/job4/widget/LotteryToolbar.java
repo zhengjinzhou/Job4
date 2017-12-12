@@ -13,10 +13,6 @@ import android.view.Menu;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
-/**
- * Created by feimeng0530 on 2016/3/23.
- */
 public class LotteryToolbar  extends Toolbar{
     public LotteryToolbar(Context context) {
         super(context);

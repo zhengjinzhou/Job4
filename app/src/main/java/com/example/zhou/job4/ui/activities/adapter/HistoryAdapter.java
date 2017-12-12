@@ -8,11 +8,6 @@ import com.example.zhou.job4.ui.fragment.base.BaseFragment;
 
 import java.util.List;
 
-
-/**
- * Created by junbo on 7/11/2016.
- */
-
 public class HistoryAdapter extends BasePagerAdapter {
     public HistoryAdapter(FragmentManager fm, List<BaseFragment> fragmentList, Context context) {
         super(fm, fragmentList, context);

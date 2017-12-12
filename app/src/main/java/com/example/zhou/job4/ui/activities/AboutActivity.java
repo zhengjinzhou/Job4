@@ -10,10 +10,6 @@ import com.example.zhou.job4.ui.activities.view.AboutView;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 13/11/2016.
- */
-
 public class AboutActivity extends BaseActivity implements AboutView {
 
     @Override

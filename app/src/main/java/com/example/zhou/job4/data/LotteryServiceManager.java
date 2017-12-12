@@ -31,9 +31,6 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by feimeng0530 on 2016/3/17.
- */
 public class LotteryServiceManager {
     public static volatile LotteryServiceManager instance;
     private OkHttpClient client;

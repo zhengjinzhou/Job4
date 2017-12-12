@@ -17,10 +17,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by junbo on 7/11/2016.
- */
-
 public class HistoryFragmentAdapter extends BaseRecyclerAdapter<LotteryHistory.ListEntity, HistoryFragmentAdapter.HistoryFragmentViewHolder> {
     private String id;
 

@@ -1,8 +1,5 @@
 package com.example.zhou.job4.model;
 
-/**
- * Created by junbo on 2016/4/6.
- */
 public class ApiVersion implements ILottery{
     /**
      * name : fir.im

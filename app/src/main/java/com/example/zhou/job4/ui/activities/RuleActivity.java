@@ -19,10 +19,6 @@ import java.util.List;
 
 import butterknife.BindView;
 
-/**
- * Created by junbo on 15/11/2016.
- */
-
 public class RuleActivity extends BaseActivity<Rule, RulePresenter> implements RuleView {
     @BindView(R.id.listView)
     ListView listView;

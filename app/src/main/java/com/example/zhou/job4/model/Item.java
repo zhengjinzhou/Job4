@@ -1,8 +1,5 @@
 package com.example.zhou.job4.model;
 
-/**
- * Created by feimeng0530 on 2016/3/24.
- */
 public class Item implements ILottery{
     private String lotName;
     private String lotId;

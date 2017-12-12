@@ -21,10 +21,6 @@ import java.util.List;
 
 import butterknife.ButterKnife;
 
-/**
- * Created by junbo on 1/11/2016.
- */
-
 public abstract class BaseFragment<T extends BasePresenter> extends Fragment implements BaseView {
 
     public T presenter;

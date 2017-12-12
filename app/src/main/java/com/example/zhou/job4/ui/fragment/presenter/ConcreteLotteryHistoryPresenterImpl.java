@@ -10,10 +10,6 @@ import com.example.zhou.job4.ui.fragment.view.ConcreteLotteryView;
 
 import rx.Subscriber;
 
-/**
- * Created by junbo on 7/11/2016.
- */
-
 public class ConcreteLotteryHistoryPresenterImpl extends BaseFailPresenterImpl<ConcreteLotteryView> implements ConcreteLotteryHistoryPresenter<ConcreteLotteryView> {
     int currentPage=1;
     int pageCount=10;
